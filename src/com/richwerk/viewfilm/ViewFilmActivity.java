@@ -24,7 +24,7 @@ public class ViewFilmActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String url = "http://www.vam.ac.uk/api/json/museumobject/O12345";
+        String url = "http://www.vam.ac.uk/api/json/museumobject/search";
 
         HttpClient httpclient = new DefaultHttpClient();
  
